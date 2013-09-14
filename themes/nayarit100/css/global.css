@@ -1,0 +1,385 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body{
+  background: url(../images/body-tail.gif);
+}
+h1{
+  font-size: 24px;
+  line-height: 28px;
+}
+h2{
+  font-size: 20px;
+  line-height: 22px;
+}
+h3{
+  font-size: 18px;
+  line-height: 20px;
+}
+a,
+a:link, 
+a:visited{
+  color: #E03943;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+h2 a,
+h2 a:link,
+h2 a:visited{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background: #E03845; 
+}
+h2 a:hover{
+  text-decoration: none;
+  background: gray;
+}
+#section-header{
+  margin-bottom: 10px;
+}
+#zone-branding.container-12 .grid-12,
+#zone-content.container-12 .grid-12{
+  width: 960px;
+}
+.container-12 #region-content.grid-9 {
+  width: 650px;
+}
+#region-content .region-inner{
+  padding-right: 20px;
+}
+.page .grid-1, 
+.page .grid-2, 
+.page .grid-3, 
+.page .grid-4, 
+.page .grid-5, 
+.page .grid-6, 
+.page .grid-7, 
+.page .grid-8, 
+.page .grid-9, 
+.page .grid-10, 
+.page .grid-11, 
+.page .grid-12 {
+  margin-left: 0;
+  margin-right: 0;
+}
+#messages{
+  margin-bottom: 10px;
+}
+.container-12 #region-sidebar-second.grid-3 {
+  width: 310px;
+}
+#region-sidebar-second .block{
+  margin-bottom: 20px;
+}
+
+/* RECENT ARTICLES */
+.view-id-recent_articles .views-row{
+  clear: both;
+  margin: 10px 0;
+  background: white;
+  padding-right: 10px;
+}
+.view-id-recent_articles .views-row.views-row-first{
+  margin-top: 0;
+}
+.view-id-recent_articles .views-row.views-row-last{
+  margin-bottom: 0;
+}
+.view-id-recent_articles .views-row .image{
+  width: 320px;
+  height: 220px;
+  float: left;
+}
+.view-id-recent_articles .views-row .category,
+.view-id-recent_articles .views-row .title,
+.view-id-recent_articles .views-row .body,
+.view-id-recent_articles .views-row .more{
+  margin-left: 320px;
+}
+.view-id-recent_articles .views-row .category{
+  margin-bottom: 10px;
+}
+.view-id-recent_articles .views-row .category a{
+  display: inline-block;
+  min-width: 150px;
+}
+.view-id-recent_articles .views-row .title{
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.view-id-recent_articles .views-row .body{
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.view-id-recent_articles .views-row .more{
+  text-align: right;
+}
+
+/* VIDEO PROMOTED AT SIDEBAR */
+.view-id-promoted_video h2{
+  margin-bottom: 10px;
+}
+.view-id-promoted_video h2 a{
+  display: block;
+}
+
+
+/* FEATURED */
+.view-id-featured_top .views-row{
+  position: relative;
+}
+.view-id-featured_top .info{
+  width: 700px;
+  
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+}
+.view-id-featured_top h1{
+  font-size: 34px;
+  line-height: 38px;
+}
+.view-id-featured_top h1 a{
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 2px #000;
+}
+.view-id-featured_top p{
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-shadow: 3px 2px #000;
+  font-weight: bold;
+}
+.view-id-featured_top{
+  position: relative;
+}
+.view-id-featured_top .view-footer{
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 232px;
+  height: 383px;
+  background: url(../images/lonopng.png) no-repeat;
+}
+
+
+/* LISTADOS */
+.prensa-list{
+  width: 640px;
+}
+.prensa-list .view-content{
+  padding: 0px;
+  border: 1px solid #DDD;
+  background: white;
+}
+.prensa-list .image{
+  float: left;
+  width: 185px;
+}
+.prensa-list .info{
+  margin-left: 195px;
+}
+.prensa-list .views-row{
+  padding: 15px;
+  border-bottom: solid 1px #DDD;
+}
+.prensa-list .views-row.views-row-even{
+  background: #fafaFF;
+}
+.prensa-list .info h3.title{
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.prensa-list .views-row h3.title a{
+  font-weight: bold;
+}
+.prensa-list .views-row h3.title a:hover{
+  color: #D31145;
+  text-decoration: underline;
+}
+.prensa-list .info .date{
+  color: #666;
+  font-size: 11px;
+}
+.prensa-list .info p.body{
+  font-size: 13px;
+  line-height: 14px;
+  margin-bottom: 5px;
+}
+#block-block-3{
+  display: none;
+}
+
+/* breadcrumb */
+#breadcrumb{
+  margin-bottom: 10px;
+}
+#breadcrumb .item{
+  float: left;
+  margin-right: 5px;
+  
+}
+#breadcrumb .item.separator{
+  font-weight: bold;
+}
+#breadcrumb a{
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  height: 20px;
+  padding: 0;
+}
+#breadcrumb a:hover{
+  text-decoration: underline;
+}
+
+
+/* Node Page */
+.page-node .field-name-field-image{
+  
+}
+.page-node .field-group-htabs-wrapper{
+  width: 300px;
+}
+.page-node .field-name-body{
+  padding-top: 32px;
+  text-align: justify;
+}
+.page-node .horizontal-tabs{
+  border: none;
+  margin: 0;
+}
+.page-node .horizontal-tabs ul.horizontal-tabs-list{
+  background: inherit;
+  border: none;
+  width: 180px;
+  position: relative;
+  top: -30px;
+}
+.page-node .horizontal-tabs fieldset.horizontal-tabs-pane{
+  padding: 0;
+  margin: 0;
+}
+.page-node .horizontal-tabs-panes.horizontal-tabs-processed{
+  margin-top: -36px;
+}
+.page-node .horizontal-tabs ul.horizontal-tabs-list li.horizontal-tab-button{
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 42px;
+  min-width: 42px;
+  height: 32px;
+  min-height: 32px;
+  background: inherit;
+}
+.page-node .horizontal-tab-button a strong,
+.page-node .horizontal-tab-button a span{
+  display: none;
+}
+
+.page-node .horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button a{
+  display: block;
+  height: 32px;
+  width: 32px;
+  padding: 0 5px;
+  margin: 0;
+  background-position: 5px 0;
+  background-repeat: no-repeat; 
+}
+.page-node .horizontal-tab-button-0 a{
+  background-image: url(../images/camera.png);
+}
+.page-node .horizontal-tab-button-1 a{
+  background-image: url(../images/film.png);
+}
+.page-node .horizontal-tab-button-2 a{
+  background-image: url(../images/audio.png);
+}
+.page-node .group-image-source{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+/* Social Links*/
+#block-block-4{
+}
+#block-block-4 ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  right: 0;
+  height: 25px;
+  float: right;
+}
+#block-block-4 ul li{
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: 10px;
+  height: 25px;
+}
+#block-block-4 ul li.last{
+  margin-right: 0;
+}
+#facebook-like-button{
+  width: 77px;
+  overflow: hidden;
+}
+.not-front #section-content{
+  padding-top: 0;
+}
+
+/* Nodo Page */
+.page-node #block-system-main{
+  /*border: 1px solid #DDD;
+  border-bottom: none;
+  padding: 15px 15px 0 15px;
+  background: white;
+  */
+}
+.page-node #block-block-5{
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 0 15px 15px 15px;
+  background: white;
+}
+.not-front #section-header{
+  margin: 0;
+  height: 10px;
+  background: #E03845;
+}
+.page-node #logo-link{
+  position: absolute;
+  z-index: 500;
+}
+.page-node #logo-link a{
+  position: relative;
+  left: -10px;
+  text-indent: -9999px;
+  display: block;
+  width: 232px;
+  height: 381px;
+  background: url(../logo.png) no-repeat;
+}
+.page-node .breadcrumb{
+  margin-left: 232px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.page-node #region-content h1.title,
+.page-node #region-content div.tabs,
+.page-node #region-content .block-block-3,
+.page-node #region-content .block-block-4,
+.page-node .field-group-htabs-wrapper
+{
+  margin-left: 232px;
+}
